@@ -14,9 +14,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Spread items out along the main axis */
-    align-items: center; /* Center items vertically */
 }
 
 /* Style the header section */
@@ -42,19 +40,35 @@ section p {
     color: aliceblue; /* Change the color of the paragraphs */
     text-align: center; /* Center align the paragraphs */
 }
-
+.image-wrapper {
+    margin-bottom: 20px; /* Add spacing between images */
+}
+/* Style the images within the wrapper */
+.image-wrapper img {
+    display: block;
+    margin: 0 auto; /* Center align images horizontally */
+    max-width: 100%;
+    height: auto;
+}
+/* Style the paragraphs below the images */
+.image-wrapper p {
+    color: white;
+    text-align: center;
+    margin-top: 10px; /* Add spacing between image and text */
+}
 /* Style the images in the second container */
-.container2 img {
-   /* display: block; /* Make the images block elements */
-    max-width: 60%; /* Set maximum width for each image */
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Style the paragraphs in the second container */
 .container2 p {
-    color: white; /* Change the color of the paragraphs */
-    text-align: center; /* Center align the paragraphs */
-    margin-bottom: 20px; /* Add spacing between paragraphs */
-    width: 100%; /* Set width for each paragraph */
+    color: white;
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add spacing below paragraphs */
 }
 /* Style the join now button */
 .button-container {
